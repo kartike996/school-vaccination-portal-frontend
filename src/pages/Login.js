@@ -1,7 +1,6 @@
-
 import React, { useState } from 'react';
 import axios from '../api/axios';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 
 const Login = () => {
   const navigate = useNavigate();
@@ -35,6 +34,10 @@ const Login = () => {
         {error && <p className="text-danger">{error}</p>}
         <button className="btn btn-primary">Login</button>
       </form>
+      <div className="mt-3">
+        <span>Don't have an account? </span>
+        <Link to="/signup">Sign up here</Link>
+      </div>
     </div>
   );
 };
