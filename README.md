@@ -44,8 +44,7 @@ Runs at: [http://localhost:3000](http://localhost:3000)
 
 ## ⚙️ Configuration
 
-- Base URL: `src/api/axios.js`  
-Change the `baseURL` if backend is hosted elsewhere.
+- Base URL: [http://localhost:8001](http://localhost:8001)
 
 ---
 
